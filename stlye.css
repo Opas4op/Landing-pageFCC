@@ -1,0 +1,193 @@
+<style>
+
+#myFakeElement {
+  color: red;
+}
+
+
+.overall {
+  position: relative;
+}
+
+#main {
+ background-color: #eee;
+ font-family: lato, monospace, sans-serif;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+	position: fixed;
+  top: 0;
+  min-height: 75px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 99;
+  background-color: #eee;
+}
+
+.header_img{
+	margin-top: 15px;
+	width: auto;
+height: 30px;
+float:left;
+background-size: contain;
+}
+
+
+.navbar{
+	position:absolute;
+width:55vw;
+height:100px;
+display: inline-block;
+right:50px;
+}
+
+.ull {
+	display: flex;
+	justify-content: center;
+align-items: flex;
+ list-style-type: none;
+  margin-left: 0px;
+  padding: 0;
+  overflow: hidden;	
+  text-align: center;
+}
+
+.nav-link{
+	float:right;
+	display: inline-block;
+  text-decoration: none;
+  line-height: 100%;
+  padding: 10px;
+  color: red;
+  	}
+  	
+  	
+  	li{
+	  	text-decoration: none;
+	list-style-type: none;
+	
+  	}
+  	
+  	li a {
+
+}
+
+li a:hover{
+	
+}
+.description{
+	margin-top: 90px;
+	margin-bottom: -20px;
+	text-align: center;	
+}
+
+
+section{
+	position: relative;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+	  
+}
+
+.grid{
+	padding: 50px 50px 0px 50px;
+	max-width: 800px;
+	line-height: 0.9em;
+	margin:auto;
+}
+
+
+.icon{
+	float:left;
+color: darkorange;
+padding: 25px 30px 50px 50px;
+text-align: center;
+}
+
+
+
+.video{
+	padding: 50px 50px 50px 50px;
+	text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+iframe{
+	width: 75%;
+	height: 370px;
+	padding: 0;
+	margin:0;
+}
+}
+
+.price{
+	margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.product{
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 25% ;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding:5px 5px 20px 5px;
+
+}
+
+.straight {
+  padding-left: 0px !important;
+}
+
+footer {
+	margin-top: 30px;
+  /*height: 30px;*/
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.ulfooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navlinkfooter{
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: auto;
+}
+
+span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+</style>
